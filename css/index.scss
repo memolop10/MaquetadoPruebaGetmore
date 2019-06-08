@@ -1,0 +1,115 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.PrincipalContainerHeader{
+    display: flex;
+    height: 90vh;
+    background-image: url(./../img/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+        .ContainerImgTennis {
+            border-right: solid 2px #ffffff;
+            height: 100%;
+            width: 4%;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+        }
+            img.TennisImage {
+                margin-top: 10px;
+            }
+
+    
+    .Navbar{
+        display: flex;
+        width: 100%;
+        height: 8%;
+        justify-content: space-around;
+
+        .LinksContainer {
+            display: flex;
+            align-items: center;
+
+            span.LinksHeader {
+                color: #ffffff;
+                margin-left: 40px;
+            }
+        }  
+
+        .LenguajeContainer {
+            display: flex;
+            align-items: center;
+
+            span.SiglasLenguaje {
+                color: #ffffff;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .ContentHeader {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        left: 20%;
+        margin-top: 15%;
+        width: 41%;
+        line-height: 65px;
+
+        span.TextContentHeader {
+            color: #ffffff;
+            font-size: 48px;
+        }
+        .AboutButton{
+                width: 269px;
+                height: 53px;
+                border-radius: 26.5px;
+                border: solid 1px #ffffff;
+                background-color: rgba(0, 0, 0,0);
+                color: #ffffff;
+                margin-top: 15px;
+        }
+
+        strong{
+            color:#cbe346
+        }
+    }
+      
+}
+
+
+section.RaquetesAccesorios {
+        display: flex;
+        justify-content: space-around;
+        height: 50vh;
+        background-color: #f3f4f8;
+    
+    .AccesoriosContainer {
+        display: flex;
+        align-items: center;
+
+        .TennisGreen {
+            display: flex;
+            margin-right: 20px;
+            span.SpanGreenTennis {
+                font-size: 15px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 2;
+                letter-spacing: 1.9px;
+                text-align: right;
+                color: #cbe346;
+            }
+        }
+        .RaquetasAccesoriosPelotas {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
