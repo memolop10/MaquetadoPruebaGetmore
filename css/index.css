@@ -113,7 +113,6 @@ section.RaquetesAccesorios {
 
 .BallSection {
   height: 50vh;
-  width: 25%;
   display: flex; }
   .BallSection .CarruselContainer {
     height: 100%;
@@ -159,11 +158,16 @@ section.RaquetesAccesorios {
       margin-right: 25%; }
       .BallSection .CarruselContainer .NavigationCarrusel img.ButtonNavigation {
         height: 50px; }
+      .BallSection .CarruselContainer .NavigationCarrusel span.SpanNav {
+        margin-top: 3%; }
       .BallSection .CarruselContainer .NavigationCarrusel img.ButtonNavigation.RotateNav {
         object-fit: contain;
         transform: rotate(180deg); }
   .BallSection .RaquetasCardsContainer {
-    height: 100%; }
+    height: 100%;
+    margin: 20px auto; }
+    .BallSection .RaquetasCardsContainer .ImgSlides {
+      height: 80%; }
 
 .ImageBGContainer {
   height: 80vh;
