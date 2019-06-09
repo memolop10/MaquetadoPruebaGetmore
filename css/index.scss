@@ -4,6 +4,8 @@ body{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
+
+//Estilos Header
 .PrincipalContainerHeader{
     display: flex;
     height: 90vh;
@@ -82,7 +84,10 @@ body{
       
 }
 
+//fin Header
 
+
+//Inicio Raquetas Accesorios
 section.RaquetesAccesorios {
         display: flex;
         justify-content: space-around;
@@ -96,6 +101,7 @@ section.RaquetesAccesorios {
         .TennisGreen {
             display: flex;
             margin-right: 20px;
+            margin-bottom: 8%;
             span.SpanGreenTennis {
                 font-size: 15px;
                 font-weight: 500;
@@ -106,10 +112,164 @@ section.RaquetesAccesorios {
                 text-align: right;
                 color: #cbe346;
             }
+            
         }
         .RaquetasAccesoriosPelotas {
             display: flex;
             flex-direction: column;
+            width: 50%;
+            .SpanRaquetas{
+                font-size: 50px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.14;
+                letter-spacing: -0.1px;
+                color: #1e2335;
+            }
+            span.ContentTextAccesorios {
+                font-size: 18px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.78;
+                letter-spacing: 0.5px;
+                color: #787878;
+            }
+        }
+
+    }
+
+    .ButtonHistoryContainer {
+        display: flex;
+        align-items: flex-end;
+        margin: 0 12% 6% 0;
+
+        .ButtonHistory{
+            width: 200px;
+            height: 44px;
+            border-radius: 26.5px;
+            border: solid 1px #282e47; 
+            background-color: rgba(0, 0, 0,0);
+        }
+    }
+}
+
+// fin Raquetas Accesorios 
+
+
+//Inicio Carrusel Ball
+
+.BallSection{
+    height: 50vh;
+    width: 25%;
+    display: flex;
+    .CarruselContainer{
+        height:100% ;
+        background-image: url('./../img/ball-color-court-1405355.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+
+        .NuestrasRaquetas {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 10% 0 0 40%;
+
+            span.SpanNuestras {
+                font-size: 35px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.28;
+                letter-spacing: -0.1px;
+                color: #ffffff;
+            }
+            span.SpanRaquetas {
+                font-size: 35px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.28;
+                letter-spacing: -0.1px;
+                color: #ffffff;
+            }
+            span.SpanConoce {
+                font-size: 13px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.28;
+                letter-spacing: -0.1px;
+                color: #ffffff;
+            }
+        }
+
+        .NavigationCarrusel {
+            display: flex;
+            justify-content: flex-end;
+            /* height: 26px; */
+            margin-top: 10px;
+            margin-right: 25%;
+
+            img.ButtonNavigation {
+                height: 50px;
+            }
+
+            img.ButtonNavigation.RotateNav {
+                object-fit: contain;
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .RaquetasCardsContainer{
+        height:100% ;
+    }
+}
+
+//Inicio ImageBG
+
+.ImageBGContainer{
+    height: 80vh;
+    width: 100%;
+
+    .Tennista{
+        height: 100%;;
+        width: 100%;
+    }
+    
+}
+
+//Inicio Footer
+
+.FooterContainer{
+    background-color: #cbe346;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+
+    .LinksAndIcons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0% 5%;
+        .LinksFooter {
+            margin-bottom: 6%;
+            span.NavLinksFooter {
+                margin: 0 12px 0 0;
+                font-size: 13px;
+                color: #2b3049;
+            }
+        }
+    }
+
+    .BallImgContainer {
+        display: flex;
+        img.ImgBallFooter {
+            margin: 0 15px 0 0px;
         }
     }
 }
